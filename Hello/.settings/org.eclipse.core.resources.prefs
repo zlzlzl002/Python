@@ -1,4 +1,6 @@
 eclipse.preferences.version=1
+encoding//test/DataTypeTest.py=utf-8
+encoding//test/FunctionTest.py=utf-8
 encoding//test/Step01_Comment.py=utf-8
 encoding//test/Step02_DataType.py=utf-8
 encoding//test/Step03_Dict.py=utf-8
@@ -11,4 +13,3 @@ encoding//test/Step06_function3.py=utf-8
 encoding//test/Step06_function4.py=utf-8
 encoding//test/Step06_function5.py=utf-8
 encoding//test/hello.py=utf-8
-encoding//test/typeTest.py=utf-8
