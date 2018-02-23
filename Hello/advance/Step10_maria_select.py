@@ -29,11 +29,12 @@ if __name__ == '__main__':
         sql="""
               SELECT num,name,addr 
               FROM member 
+              WHERE num=%s
               ORDER BY num DESC
         """           # 주석이아닌 문자열로 인식함
         
         # query 문 수행
-        cursor.execute(sql)
+        cursor.execute(sql, (2,))
         
         # fetchall() 하면 tuple 이 순서대로 들어 있는 list 이다.
         result=cursor.fetchall() # result <=> ResultSet(java)
