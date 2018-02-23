@@ -29,7 +29,6 @@ if __name__ == '__main__':
         sql="""
               SELECT num,name,addr 
               FROM member 
-              WHERE num=%s
               ORDER BY num DESC
         """           # 주석이아닌 문자열로 인식함
         
