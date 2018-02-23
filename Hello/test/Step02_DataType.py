@@ -13,13 +13,18 @@
 # int type (정수)
 num1=10
 
+# ex \붙여줘야한다.
+num10=(10+1)\
+     *(100-999)
+
 # float type (실수)
 num2=10.1
 
 # bool type (논리)
 isRun=True
 isWait=False
-isGreater=10>5
+isGreater=10>5 # 비교연산의 결과
+isGo=True or False # 논리연산의 결과 or and not
 
 # str type (문자열)
 myName='kimgura'

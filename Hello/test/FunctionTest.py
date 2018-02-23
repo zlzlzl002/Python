@@ -2,13 +2,13 @@
 
 # 함수 생성 하기
 def test1():
-    pass
+    pass 
 
 # 함수 호출하기
 test1()
 
 # 줄을 맞춰줘야 한다  
-def test2():
+def test2():         # : 들여쓰기는   == {}
     print "gura"
     print "gura2"
     print "gura3"
@@ -53,3 +53,15 @@ test7()
 test7(1)
 test7(name="mouse")
 test7(2,name="key")
+
+# 
+def test8(num,name,addr):
+    print "num:",num, "name:",name, "addr:",addr
+test8(num=1,name="kim",addr="sa") #key
+test8(2,"gugu","gogogo")
+
+print "------------------------------"
+
+def test9(num=0,name="",addr=""):
+    print "num:",num, "name:",name, "addr:",addr
+test9(num=1,name="gogo",addr="gogogo")

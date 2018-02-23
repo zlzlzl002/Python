@@ -14,5 +14,6 @@ test1()
 test1(10) #tuple 10, 
 test1(10,20) 
 test1(10,20,30)
+test1("one","two",True)
     
 print "Step06_function3.py 가 종료 됩니다."

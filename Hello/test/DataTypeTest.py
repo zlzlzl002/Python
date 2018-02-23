@@ -1,6 +1,6 @@
 #-*- coding:utf-8 -*-
 
-# Dict 
+# Dict(dictionary) 순서가없는 데이터 type == javascript object type 유사 
 
 mem1= {"num":1, "name":"kimgura", "addr":"zoo"}
 
@@ -22,6 +22,7 @@ for tmp in mem1.keys():
 
 # tuple  정보 수정 삭제 할수 없다 List type 보다 빠르다
 num=(1,2,3,4,5)
+
 
 # del num[1] tuple type 이런거 안됨
 
